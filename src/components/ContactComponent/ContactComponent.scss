@@ -1,0 +1,22 @@
+.contact-container {
+    text-align: center;
+    padding-top: 10px;
+    .info {
+        a {
+            padding: 10px;
+        }
+    }
+    .page-contact {
+        ul {
+            li {
+                list-style: none;
+                display: inline-block;
+                padding-right: 15px;
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}

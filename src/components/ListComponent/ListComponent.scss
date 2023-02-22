@@ -1,0 +1,23 @@
+.list-container {
+    background-color: #040808;
+    .nav-item {
+        margin: 0;
+        .items_cart {
+            display: inline-block;
+            list-style: none;
+            padding: 0 20px;
+            line-height: 46px;
+            font-size: 26px;
+            height: 100%;
+            cursor: pointer;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+        :hover {
+            background-color: #c4b42b;
+            color: #fff;
+        }
+    }
+}

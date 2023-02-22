@@ -1,0 +1,12 @@
+$bg: #fef5df;
+
+.home-main {
+    background-color: $bg;
+    .home-container {
+        .list-cart_container {
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    }
+}
