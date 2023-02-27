@@ -1,0 +1,49 @@
+@import './../../config/configSceen';
+.product-container {
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    .null__product {
+        width: 300px;
+    }
+    .product__img {
+        img {
+            height: 300px;
+            max-width: 500px;
+        }
+        .product__imgs {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+
+            img {
+                height: 50%;
+                max-width: 112px;
+                cursor: pointer;
+            }
+        }
+    }
+    .product__content {
+        margin-top: 20px;
+    }
+}
+@include responsive_768 {
+    .product-container {
+        .product__img {
+            img {
+                height: 300px;
+                max-width: 500px;
+            }
+            .product__imgs {
+                img {
+                    height: 50%;
+                    max-width: 112px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .product__content {
+            text-align: center;
+        }
+    }
+}

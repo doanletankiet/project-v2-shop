@@ -19,8 +19,9 @@ export const router = [
         page: NotFound,
     },
     {
-        path: '/products',
+        path: `/products/`,
         page: ProductsPage,
+        isShowHeader: true,
     },
     {
         path: '/auth',
