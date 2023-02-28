@@ -5,14 +5,6 @@
     align-items: center;
     margin-top: 230px;
     flex-wrap: wrap;
-    .auth__bg {
-        background-image: url('/src/assets/img/slide.jpg');
-        width: 500px;
-        height: 500px;
-        border-radius: 0px 15px 15px 0px;
-        -webkit-box-shadow: 0 0 5px #000;
-        box-shadow: 0 0 5px #000;
-    }
 
     .auth__login-container {
         // display: flex;
@@ -60,6 +52,9 @@
         text-align: center;
     }
 }
-.auth__active {
+.auth__none {
+    display: none;
+}
+.auth-register__none::before {
     display: none;
 }

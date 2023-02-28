@@ -16,10 +16,9 @@ export const HeaderComponent = () => {
                 </form>
             </div>
             <div className="col-3">
-                <button className="btn btn-outline-primary" onClick={() => navigate('/auth')}>
-                    Đăng nhập
+                <button className="btn btn-outline-dark" onClick={() => navigate('/login')}>
+                    Sign in
                 </button>
-                <button className="btn btn-outline-secondary">Đăng kí</button>
             </div>
         </header>
     );
